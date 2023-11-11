@@ -6,6 +6,6 @@ import org.springframework.context.annotation.PropertySource;
 
 @Configuration
 @PropertySource("classpath:properties")
-@ComponentScan("org.example")
+@ComponentScan("zaur")
 public class MyConfig {
 }
