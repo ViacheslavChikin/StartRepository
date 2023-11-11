@@ -10,7 +10,7 @@ public class Test6 {
         Person person = context.getBean("person", Person.class);
         person.pat.say();
         System.out.println(person.getName());
-        System.out.println();
+
 
     }
 }
