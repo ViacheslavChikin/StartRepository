@@ -1,4 +1,4 @@
-package spring_introduction;
+package zaur;
 
 public class Dog implements Pat {
     @Override

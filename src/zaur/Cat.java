@@ -1,4 +1,4 @@
-package spring_introduction;
+package zaur;
 
 import org.springframework.stereotype.Component;
 
