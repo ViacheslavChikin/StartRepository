@@ -11,10 +11,9 @@ import java.util.Properties;
 public class Test1 {
     public static void main(String[] args) {
 
-        System.out.println();
-        SessionFactory sessionFactory =  new Configuration()
-                .configure()
-                .buildSessionFactory();
+//        SessionFactory sessionFactory =  new Configuration()
+//                .configure()
+//                .buildSessionFactory();
        SessionFactory factory = new Configuration().configure("hibernate.cfg.xml")
                .addAnnotatedClass(Employee.class)
                .buildSessionFactory();
