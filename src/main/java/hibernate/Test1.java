@@ -14,7 +14,7 @@ import java.util.Properties;
 public class Test1 {
     public static void main(String[] args) {
 
-//        SessionFactory sessionFactory =  new Configuration()
+//        SessionFactory sessionFactory =  new  Configuration()
 //                .configure()
 //                .buildSessionFactory();
         SessionFactory factory = new Configuration().configure("hibernate.cfg.xml")
